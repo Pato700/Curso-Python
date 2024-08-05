@@ -1,4 +1,6 @@
-#Crear agenda con diccionarios
+"""
+Crear Agenda con Diccionarios"""
+
 agenda = {}
 
 cantidad = int(input("Indique la cantidad de contactos a agendar: "))
@@ -10,9 +12,9 @@ if cantidad > 0:
             print("{} ya registrado, su  número {}".format(nombre,agenda[nombre]))
         else:
             agenda[nombre]=input("Indique número telefónico: ")
-            
     print("\nListado de contactos")
     for nombre, numero in agenda.items():
         print(nombre, " --> ", numero)
 else:
     print("La cantidad de contactos debe ser positivo")
+    
