@@ -1,5 +1,10 @@
 """
-Crear Agenda con Diccionarios"""
+Este programa registra o agenda usando diccionario.
+"""
+
+print("==================")
+print("AGENDA DICCIONARIO")
+print("==================")
 
 agenda = {}
 
@@ -17,4 +22,3 @@ if cantidad > 0:
         print(nombre, " --> ", numero)
 else:
     print("La cantidad de contactos debe ser positivo")
-    
