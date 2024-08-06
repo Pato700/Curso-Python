@@ -1,5 +1,5 @@
 """
-Este programa registra o agenda usando diccionario.
+Este programa registra o agenda contactos usando un diccionario.
 """
 
 print("==================")
@@ -14,10 +14,10 @@ if cantidad > 0:
     for _ in range(cantidad):
         nombre = input("Nombre de contacto: ")
         if nombre in agenda:
-            print(f"{nombre} ya registrado, su número es {agenda[nombre]}")
+            print(f"{nombre} contacto ya registrado, su número es {agenda[nombre]}")
         else:
-            agenda[nombre] = input("Indique número telefónico: ")
-    print("\nListado de contactos")
+            agenda[nombre] = input("Numero telefónico: ")
+    print("\nLista de contactos")
     for nombre, numero in agenda.items():
         print(f"{nombre} --> {numero}")
 else:
