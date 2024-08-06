@@ -11,14 +11,14 @@ agenda = {}
 cantidad = int(input("Indique la cantidad de contactos a agendar: "))
 if cantidad > 0:
     print("--- AGENDA ---")
-    for c in range(0,cantidad):
+    for c in range(cantidad):
         nombre = input("Nombre de contacto: ")
         if nombre in agenda:
-            print("{} ya registrado, su  número {}".format(nombre,agenda[nombre]))
+            print(f"{nombre} ya registrado, su número es {agenda[nombre]}")
         else:
-            agenda[nombre]=input("Indique número telefónico: ")
+            agenda[nombre] = input("Indique número telefónico: ")
     print("\nListado de contactos")
     for nombre, numero in agenda.items():
-        print(nombre, " --> ", numero)
+        print(f"{nombre} --> {numero}")
 else:
-    print("La cantidad de contactos debe ser positivo")
+    print("La cantidad de contactos debe ser positiva")
