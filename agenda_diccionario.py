@@ -11,7 +11,7 @@ agenda = {}
 cantidad = int(input("Indique la cantidad de contactos a agendar: "))
 if cantidad > 0:
     print("--- AGENDA ---")
-    for c in range(cantidad):
+    for _ in range(cantidad):
         nombre = input("Nombre de contacto: ")
         if nombre in agenda:
             print(f"{nombre} ya registrado, su número es {agenda[nombre]}")
