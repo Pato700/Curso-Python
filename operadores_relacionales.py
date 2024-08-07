@@ -7,19 +7,19 @@ print("================")
 print("COMPARAR NUMEROS")
 print("================")
 
-num_uno = int(input("Ingrese el primer número: "))
-num_dos = int(input("Ingrese el segundo número: "))
+num = int(input("Ingrese el primer número: "))
+num = int(input("Ingrese el segundo número: "))
 
-print("\nResultado:")
+print("\nnum:")
 
-if num_uno != num_dos:
-    print(f"==> {num_uno} es diferente a {num_dos}")
+if num != num:
+    print(f"==> {num} es diferente a {num}")
 else:
-    print(f"==> {num_uno} es igual a {num_dos}")
+    print(f"==> {num} es igual a {num}")
 
-if num_uno > num_dos:
-    print(f"==> {num_uno} es mayor que {num_dos}")
-elif num_uno < num_dos:
-    print(f"==> {num_uno} es menor que {num_dos}")
+if num > num:
+    print(f"==> {num} es mayor que {num}")
+elif num < num:
+    print(f"==> {num} es menor que {num}")
 
 print("Fin.")
