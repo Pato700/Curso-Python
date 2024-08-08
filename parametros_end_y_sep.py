@@ -1,7 +1,7 @@
 """
 El parámetro end indica la continuación de la impresión en pantalla en una sila linea.
 El parámetro sep se utiliza para dar formato a las cadenas de caracteres ue deben imprimirse 
-en pantalla, agregando un separador entre las cadenas que se imprimirán.
+en pantalla, agregando un separador entre las cadenas que se imprimirán en pantalla.
 """
 
 print("=============")
