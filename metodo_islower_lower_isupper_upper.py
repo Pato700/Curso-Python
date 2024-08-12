@@ -14,3 +14,5 @@ print(f"String en minuscula: {string}")
 print(f"\nTodas las letras estan en mayusculas: {string.isupper()}")
 print(f"String en mayuscula: {string.upper()}")
 print(f"String original: {string}")
+
+print("Fin.")
