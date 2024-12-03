@@ -12,9 +12,6 @@ print("1. Suma.")
 print("2. Resta.")
 print("3. Multiplicación.")
 print("4. División.")
-print("5. División Entera.")
-print("6. Exponente.")
-print("7. Módulo o Resto.")
 
 num = int(input("\nElije una opción: "))
 
